@@ -1,3 +1,7 @@
+1. 
+Find the second largest element in the array using Java.
+
+
 public class Main
 {
 	public static void main(String[] args) {
@@ -31,21 +35,22 @@ public class Main
 	   
 	   
 	   
-	   There is a class Student which has id and name. IN main class we create 2 student objects. First object has 
+2. 	   There is a class Student which has id and name. IN main class we create 2 student objects. First object has 
 	   Sourav 1  Sourav 1. I created a hashmap. key is student value would be string. when i put map.put, object1 CSE and object2 CSE.IT
 	   
-	   
-	   SELECT 
-	      B.title,
-	      SUM(O.quantity) AS total_copies_sold
-	    FROM
-	     Books AS B
-	    JOIN
-	      Orders as O ON B.book_id = O.book_id
-	      GROUP BY
-	      B.title
-	     ORDER BY
-	     total_copies_sold DESC
-	   LIMIT 5;
+SQL Query to Join the Books & Orders.	   
+	
+   SELECT 
+	B.title,
+	SUM(O.quantity) AS total_copies_sold
+	FROM
+	Books AS B
+	JOIN
+	Orders as O ON B.book_id = O.book_id
+	GROUP BY
+	B.title
+	ORDER BY
+	total_copies_sold DESC
+	LIMIT 5;
 	   
 	   
