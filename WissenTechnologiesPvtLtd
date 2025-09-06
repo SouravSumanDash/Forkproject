@@ -38,7 +38,7 @@ public class Main
 2. 	   There is a class Student which has id and name. IN main class we create 2 student objects. First object has 
 	   Sourav 1  Sourav 1. I created a hashmap. key is student value would be string. when i put map.put, object1 CSE and object2 CSE.IT
 	   
-SQL Query to Join the Books & Orders.	   
+SQL Query to Join the Books & Orders and find the 5th largest book with the total number of copies sold. 	   
 	
    SELECT 
 	B.title,
